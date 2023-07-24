@@ -8,7 +8,7 @@ import { useNavigate } from "react-router-dom"; // Importing useNavigate hook fr
 // LoginForm component for the login form
 const LoginForm = () => {
   const Go = useNavigate(); // Creating a navigate function using useNavigate hook for navigation
-  const backend_url = 'https://16.170.218.199:8010/'; // Backend URL for making API requests
+  const backend_url = 'http://16.170.218.199:8010/'; // Backend URL for making API requests
   const [useremail, setUseremail] = useState(""); // State variable to store the user's email
   const [password, setPassword] = useState(""); // State variable to store the user's password
 
