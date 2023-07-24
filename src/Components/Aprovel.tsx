@@ -5,7 +5,7 @@ import { useEffect, useState } from "react"; // Importing necessary modules from
 export default function Approvel() {
   const [posts, setPosts] = useState([]); // State variable to store the list of not approved posts
 
-  const backend_url = "http://16.170.218.199:8010/"; // Backend URL for making API requests
+  const backend_url = "https://16.170.218.199:8010/"; // Backend URL for making API requests
 
   // Function to fetch not approved posts from the backend and update the state
   const posting = () => {
